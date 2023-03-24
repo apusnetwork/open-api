@@ -1,0 +1,9 @@
+p, anonymous, /apikey, *
+p, miner, /health*, *
+p, developer, /node*, GET
+p, miner, /node*, *
+p, miner, /apikey/check, *
+p, admin, /*, *
+
+g, developer, anonymous
+g, miner, developer

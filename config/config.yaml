@@ -1,0 +1,6 @@
+Env:
+  Port: ":8080"
+
+Mysql:
+  WriteDSN: "admin:apusnetwork@tcp(database-1.ccmv0xs86iee.ap-southeast-1.rds.amazonaws.com:3306)/apus?charset=utf8&parseTime=True&loc=Local"
+  ReadDSN: "admin:apusnetwork@tcp(database-1.ccmv0xs86iee.ap-southeast-1.rds.amazonaws.com:3306)/apus?charset=utf8&parseTime=True&loc=Local"
